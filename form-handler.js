@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const SampleModel = require('./models/sample');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://mailboxshawtc:<password>@mumbai-cluster.i61y3qs.mongodb.net/', {
+mongoose.connect('mongodb://localhost/myapp', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
